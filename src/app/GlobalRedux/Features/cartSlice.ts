@@ -9,7 +9,7 @@ const initialState: CartState = {
 };
 
 interface Product {
-  id: string;
+  id: number;
   name: string;
   price: string;
 }
